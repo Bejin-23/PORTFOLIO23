@@ -1,0 +1,31 @@
+.project-container {
+    text-align: center;
+    padding: 50px 20px;
+  }
+  
+  .projects {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .project-box {
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: left;
+    background: #f9f9f9;
+    transition: box-shadow 0.3s ease;
+  }
+  
+  .project-box img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .project-box:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  }
